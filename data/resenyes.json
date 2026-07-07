@@ -1,0 +1,62 @@
+[
+  {
+    "nom": "Marta Cendrós",
+    "lloc_ca": "Tortosa · fa 2 setmanes",
+    "lloc_es": "Tortosa · hace 2 semanas",
+    "lloc_en": "Tortosa · 2 weeks ago",
+    "estrelles": 5,
+    "text_ca": "El civet de senglar és dels millors que he tastat mai. Es nota la mà de l'Iban i el respecte pel producte. Tornarem segur.",
+    "text_es": "El civet de jabalí es de los mejores que he probado nunca. Se nota la mano de Iban y el respeto por el producto. Volveremos seguro.",
+    "text_en": "The wild boar civet is one of the best I've ever tasted. You can feel Iban's touch and respect for the produce. We'll definitely be back."
+  },
+  {
+    "nom": "Jordi Pané",
+    "lloc_ca": "Barcelona · fa 1 mes",
+    "lloc_es": "Barcelona · hace 1 mes",
+    "lloc_en": "Barcelona · 1 month ago",
+    "estrelles": 5,
+    "text_ca": "Un racó honest a la Terra Alta. La brasa de llenya d'olivera ho canvia tot. La costella madurada, espectacular.",
+    "text_es": "Un rincón honesto en la Terra Alta. La brasa de leña de olivo lo cambia todo. La chuleta madurada, espectacular.",
+    "text_en": "An honest corner in the Terra Alta. The olive wood grill changes everything. The aged chop, spectacular."
+  },
+  {
+    "nom": "Laia Ferré",
+    "lloc_ca": "Reus · fa 3 setmanes",
+    "lloc_es": "Reus · hace 3 semanas",
+    "lloc_en": "Reus · 3 weeks ago",
+    "estrelles": 5,
+    "text_ca": "Cuina de poble feta amb ànima i sense pretensions. El tracte, immillorable i els vins de la DO Terra Alta, una troballa.",
+    "text_es": "Cocina de pueblo hecha con alma y sin pretensiones. El trato, inmejorable, y los vinos de la DO Terra Alta, un hallazgo.",
+    "text_en": "Village cooking made with soul and without pretension. The service, unbeatable, and the DO Terra Alta wines, a real discovery."
+  },
+  {
+    "nom": "Albert Bonet",
+    "lloc_ca": "Lleida · fa 2 mesos",
+    "lloc_es": "Lleida · hace 2 meses",
+    "lloc_en": "Lleida · 2 months ago",
+    "estrelles": 5,
+    "text_ca": "Vam venir per una celebració i ens van tractar com a casa. L'arròs de conill i carxofa, per repetir mil cops.",
+    "text_es": "Vinimos por una celebración y nos trataron como en casa. El arroz de conejo y alcachofa, para repetir mil veces.",
+    "text_en": "We came for a celebration and were treated like family. The rabbit and artichoke rice, worth repeating a thousand times."
+  },
+  {
+    "nom": "Núria Gil",
+    "lloc_ca": "Móra d'Ebre · fa 1 setmana",
+    "lloc_es": "Móra d'Ebre · hace 1 semana",
+    "lloc_en": "Móra d'Ebre · 1 week ago",
+    "estrelles": 5,
+    "text_ca": "Producte de proximitat de veritat, no és màrqueting. Es nota la temporada al plat. La torrija a la brasa, brutal.",
+    "text_es": "Producto de proximidad de verdad, no es marketing. Se nota la temporada en el plato. La torrija a la brasa, brutal.",
+    "text_en": "Local produce for real, not just marketing. You can taste the season on the plate. The grilled torrija, outstanding."
+  },
+  {
+    "nom": "Pau Rovira",
+    "lloc_ca": "Tarragona · fa 1 mes",
+    "lloc_es": "Tarragona · hace 1 mes",
+    "lloc_en": "Tarragona · 1 month ago",
+    "estrelles": 5,
+    "text_ca": "Val la pena el viatge fins a Gandesa només per sopar aquí. Cuina d'autor a preu just i amb un alma que escasseja.",
+    "text_es": "Vale la pena el viaje hasta Gandesa solo para cenar aquí. Cocina de autor a precio justo y con un alma que escasea.",
+    "text_en": "The trip to Gandesa is worth it just to eat here. Author cuisine at a fair price and with a soul that is increasingly rare."
+  }
+]

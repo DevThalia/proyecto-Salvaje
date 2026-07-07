@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pol&iacute;tica de cookies &mdash; Salvaje Gandesa</title>
+<meta name="robots" content="noindex, nofollow" />
+<link rel="icon" type="image/png" href="img/favicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+<style>
+  .cookies-page {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 120px 32px 80px;
+  }
+  .cookies-page h1 {
+    font-family: var(--serif);
+    font-size: clamp(2.2rem, 5vw, 3.2rem);
+    color: var(--negre);
+    margin: 1rem 0 0.5rem;
+    line-height: 1.1;
+  }
+  .cookies-page .meta {
+    font-size: 0.82rem;
+    color: var(--text-suau);
+    letter-spacing: 0.04em;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--linia);
+  }
+  .cookies-page h2 {
+    font-family: var(--serif);
+    font-size: 1.6rem;
+    color: var(--negre);
+    margin: 2.5rem 0 0.8rem;
+    font-weight: 500;
+  }
+  .cookies-page p {
+    font-size: 1rem;
+    color: var(--text-suau);
+    line-height: 1.8;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+  .cookies-page p strong { color: var(--negre); font-weight: 500; }
+  .cookies-page ul {
+    padding-left: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .cookies-page li {
+    font-size: 1rem;
+    color: var(--text-suau);
+    line-height: 1.8;
+    font-weight: 300;
+    margin-bottom: 0.4rem;
+  }
+  .cookies-page a {
+    color: var(--terra);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(176, 120, 72, 0.3);
+    transition: color 0.2s;
+  }
+  .cookies-page a:hover { color: var(--salvia-fosc); border-color: var(--salvia-fosc); }
+  .cookie-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0 2rem;
+    font-size: 0.92rem;
+  }
+  .cookie-table th {
+    background: var(--negre);
+    color: var(--crema);
+    padding: 0.85rem 1rem;
+    text-align: left;
+    font-family: var(--sans);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .cookie-table td {
+    padding: 0.9rem 1rem;
+    border-bottom: 1px solid var(--linia);
+    color: var(--text);
+    vertical-align: top;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  .cookie-table tr:last-child td { border-bottom: none; }
+  .cookie-table td strong { font-weight: 500; color: var(--negre); }
+  .tag-funcional {
+    display: inline-block;
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: var(--salvia-fosc);
+    color: var(--crema);
+    padding: 0.15rem 0.5rem;
+    border-radius: 2px;
+  }
+  .tag-tercer {
+    display: inline-block;
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: var(--terra);
+    color: var(--crema);
+    padding: 0.15rem 0.5rem;
+    border-radius: 2px;
+  }
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--terra);
+    text-decoration: none;
+    border: none !important;
+    margin-bottom: 2rem;
+  }
+  .back-link:hover { color: var(--salvia-fosc); border: none !important; }
+  @media (max-width: 640px) {
+    .cookies-page { padding: 100px 16px 60px; }
+    .cookie-table { font-size: 0.82rem; }
+    .cookie-table th, .cookie-table td { padding: 0.65rem 0.7rem; }
+    .cookie-table th:last-child, .cookie-table td:last-child { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav" style="background: rgba(30,26,20,0.97);">
+  <div class="wrap nav-inner">
+    <a href="/" class="logo">
+      <img src="img/logo-salvaje.png" alt="Salvaje" class="nav-logo-img" />
+    </a>
+    <div class="nav-cta">
+      <div class="lang-switch">
+        <button type="button" data-lang="ca">CA</button>
+        <button type="button" data-lang="es">ES</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <a href="/" class="btn btn-terra" style="font-size:0.78rem; padding: 0.7rem 1.4rem;"
+         data-es="&#8592; Volver" data-en="&#8592; Back">&#8592; Tornar</a>
+    </div>
+  </div>
+</nav>
+
+<main class="cookies-page">
+
+  <a href="/" class="back-link"
+     data-es="&#8592; Volver a la web" data-en="&#8592; Back to the website">&#8592; Tornar a la web</a>
+
+  <p class="eyebrow">Legal</p>
+  <h1 data-es="Pol&iacute;tica de cookies" data-en="Cookie policy">Pol&iacute;tica de cookies</h1>
+  <p class="meta"
+     data-es="Salvaje Gandesa &middot; Carrer Sant Miquel, 68 &middot; 43780 Gandesa &middot; &Uacute;ltima actualizaci&oacute;n: julio de 2026"
+     data-en="Salvaje Gandesa &middot; Carrer Sant Miquel, 68 &middot; 43780 Gandesa &middot; Last updated: July 2026">
+    Salvaje Gandesa &middot; Carrer Sant Miquel, 68 &middot; 43780 Gandesa &middot; &Uacute;ltima actualitzaci&oacute;: juliol de 2026
+  </p>
+
+  <h2 data-es="&iquest;Qu&eacute; es una cookie?" data-en="What is a cookie?">Qu&egrave; &eacute;s una cookie?</h2>
+  <p data-es="Una cookie es un peque&ntilde;o archivo de texto que un sitio web almacena en tu dispositivo (ordenador, tableta o m&oacute;vil) cuando lo visitas. Permite al sitio web recordar tus acciones y preferencias durante un per&iacute;odo de tiempo."
+     data-en="A cookie is a small text file that a website stores on your device (computer, tablet or mobile) when you visit it. It allows the website to remember your actions and preferences over a period of time.">
+    Una cookie &eacute;s un fitxer de text petit que un lloc web emmagatzema al teu dispositiu (ordinador, tauleta o m&ograve;bil) quan el visites. Permet al lloc web recordar les teves accions i prefer&egrave;ncies durant un per&iacute;ode de temps.
+  </p>
+
+  <h2 data-es="&iquest;Qu&eacute; cookies usamos?" data-en="What cookies do we use?">Quines cookies usem?</h2>
+
+  <table class="cookie-table">
+    <thead>
+      <tr>
+        <th data-es="Cookie / Servicio" data-en="Cookie / Service">Cookie / Servei</th>
+        <th data-es="Tipo" data-en="Type">Tipus</th>
+        <th data-es="Finalidad" data-en="Purpose">Finalitat</th>
+        <th data-es="Duraci&oacute;n" data-en="Duration">Durada</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>salvaje-lang</strong></td>
+        <td><span class="tag-funcional" data-es="Funcional" data-en="Functional">Funcional</span></td>
+        <td data-es="Recuerda el idioma seleccionado (CA / ES / EN)"
+            data-en="Remembers the selected language (CA / ES / EN)">Recorda l&apos;idioma seleccionat (CA / ES / EN)</td>
+        <td data-es="Permanente" data-en="Permanent">Permanent</td>
+      </tr>
+      <tr>
+        <td><strong>salvaje-cookies</strong></td>
+        <td><span class="tag-funcional" data-es="Funcional" data-en="Functional">Funcional</span></td>
+        <td data-es="Guarda tu preferencia de cookies"
+            data-en="Saves your cookie preference">Desa la teva prefer&egrave;ncia de cookies</td>
+        <td data-es="Permanente" data-en="Permanent">Permanent</td>
+      </tr>
+      <tr>
+        <td><strong>Google Maps</strong></td>
+        <td><span class="tag-tercer" data-es="Tercero" data-en="Third-party">Tercer</span></td>
+        <td data-es="Muestra el mapa de ubicaci&oacute;n del restaurante. Google puede recopilar datos de uso y ubicaci&oacute;n."
+            data-en="Shows the restaurant location map. Google may collect usage and location data.">Mostra el mapa de localitzaci&oacute; del restaurant. Google pot recollir dades d&apos;&uacute;s i ubicaci&oacute;.</td>
+        <td>Variable (Google)</td>
+      </tr>
+      <tr>
+        <td><strong>Elfsight / Google Reviews</strong></td>
+        <td><span class="tag-tercer" data-es="Tercero" data-en="Third-party">Tercer</span></td>
+        <td data-es="Muestra las rese&ntilde;as de Google del restaurante en la web."
+            data-en="Displays Google reviews of the restaurant on the website.">Mostra les ressenyes de Google del restaurant a la web.</td>
+        <td>Variable (Elfsight)</td>
+      </tr>
+      <tr>
+        <td><strong>Google Fonts</strong></td>
+        <td><span class="tag-tercer" data-es="Tercero" data-en="Third-party">Tercer</span></td>
+        <td data-es="Carga las tipograf&iacute;as de la web. Google puede registrar la petici&oacute;n en su servidor."
+            data-en="Loads the website fonts. Google may log the request on its server.">Carrega les tipografies de la web. Google pot registrar la petici&oacute; al seu servidor.</td>
+        <td data-es="Sesi&oacute;n" data-en="Session">Sessi&oacute;</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 data-es="&iquest;C&oacute;mo puedes gestionar las cookies?" data-en="How can you manage cookies?">Com pots gestionar les cookies?</h2>
+  <p data-es="Al entrar en el sitio web aparece un banner que te permite &lt;strong&gt;aceptar&lt;/strong&gt; o &lt;strong&gt;rechazar&lt;/strong&gt; las cookies de terceros. Si las rechazas, el mapa y las rese&ntilde;as de Google no se cargar&aacute;n."
+     data-en="When entering the website a banner appears letting you &lt;strong&gt;accept&lt;/strong&gt; or &lt;strong&gt;reject&lt;/strong&gt; third-party cookies. If you reject them, the Google map and reviews will not load.">
+    En entrar al lloc web apareix un banner que et permet <strong>acceptar</strong> o <strong>rebutjar</strong> les cookies de tercers. Si les rebutges, el mapa i les ressenyes de Google no es carregaran.
+  </p>
+  <p data-es="Tambi&eacute;n puedes eliminar o bloquear las cookies directamente desde tu navegador:"
+     data-en="You can also delete or block cookies directly from your browser:">
+    Tamb&eacute; pots eliminar o bloquejar les cookies directament des del teu navegador:
+  </p>
+  <ul>
+    <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Google Chrome</a></li>
+    <li><a href="https://support.mozilla.org/ca/kb/activa-i-desactiva-les-galetes" target="_blank" rel="noopener">Mozilla Firefox</a></li>
+    <li><a href="https://support.apple.com/ca-es/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Safari</a></li>
+    <li><a href="https://support.microsoft.com/es-es/microsoft-edge/eliminar-las-cookies-en-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener">Microsoft Edge</a></li>
+  </ul>
+
+  <h2 data-es="Base legal" data-en="Legal basis">Base legal</h2>
+  <p data-es="El uso de cookies de terceros requiere tu consentimiento de acuerdo con el &lt;strong&gt;RGPD&lt;/strong&gt; (Reglamento General de Protecci&oacute;n de Datos) y la &lt;strong&gt;Ley 34/2002&lt;/strong&gt; de Servicios de la Sociedad de la Informaci&oacute;n (LSSI)."
+     data-en="The use of third-party cookies requires your consent in accordance with the &lt;strong&gt;GDPR&lt;/strong&gt; (General Data Protection Regulation) and &lt;strong&gt;Spanish Law 34/2002&lt;/strong&gt; on Information Society Services.">
+    L&apos;&uacute;s de cookies de tercers requereix el teu consentiment d&apos;acord amb el <strong>RGPD</strong> (Reglament General de Protecci&oacute; de Dades) i la <strong>Llei 34/2002</strong> de Serveis de la Societat de la Informaci&oacute; (LSSI).
+  </p>
+  <p data-es="Las cookies funcionales (idioma y preferencia de cookies) no requieren consentimiento ya que son estrictamente necesarias para el funcionamiento b&aacute;sico del sitio."
+     data-en="Functional cookies (language and cookie preference) do not require consent as they are strictly necessary for the basic operation of the site.">
+    Les cookies funcionals (idioma i prefer&egrave;ncia de cookies) no requereixen consentiment ja que s&oacute;n estrictament necess&agrave;ries per al funcionament b&agrave;sic del lloc.
+  </p>
+
+  <h2 data-es="Contacto" data-en="Contact">Contacte</h2>
+  <p data-es="Si tienes cualquier duda sobre el uso de cookies en este sitio web, puedes contactarnos:"
+     data-en="If you have any questions about the use of cookies on this website, you can contact us:">
+    Si tens qualsevol dubte sobre l&apos;&uacute;s de cookies en aquest lloc web, pots contactar-nos:
+  </p>
+  <p>
+    &#9742; <a href="tel:+34652463090">652 46 30 90</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://www.instagram.com/salvajerestaurante_" target="_blank" rel="noopener">@salvajerestaurante_</a>
+  </p>
+
+</main>
+
+<footer style="background: var(--negre); color: var(--crema); padding: 1.5rem 0; text-align: center; border-top: 1px solid rgba(255,255,255,0.07);">
+  <p style="font-size: 0.8rem; color: rgba(250,248,244,0.4);"
+     data-es="&copy; 2026 Salvaje &middot; Cocina de autor &middot; Gandesa"
+     data-en="&copy; 2026 Salvaje &middot; Author cuisine &middot; Gandesa">&copy; 2026 Salvaje &middot; Cuina d&apos;autor &middot; Gandesa</p>
+</footer>
+
+<script>
+(function() {
+  var buttons = document.querySelectorAll(".lang-switch button");
+  var htmlEl = document.documentElement;
+
+  function setLang(lang) {
+    document.querySelectorAll("[data-es]").forEach(function(el) {
+      if (el.dataset.ca === undefined) el.dataset.ca = el.innerHTML;
+      el.innerHTML = lang === "es" ? el.dataset.es : lang === "en" ? (el.dataset.en || el.dataset.ca) : el.dataset.ca;
+    });
+    htmlEl.setAttribute("lang", lang);
+    buttons.forEach(function(b) { b.classList.toggle("active", b.dataset.lang === lang); });
+    try { localStorage.setItem("salvaje-lang", lang); } catch(e) {}
+  }
+
+  buttons.forEach(function(b) { b.addEventListener("click", function() { setLang(b.dataset.lang); }); });
+
+  var saved = "ca";
+  try { saved = localStorage.getItem("salvaje-lang") || "ca"; } catch(e) {}
+  setLang(saved);
+})();
+</script>
+
+</body>
+</html>
